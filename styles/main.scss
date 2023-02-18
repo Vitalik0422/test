@@ -1,0 +1,61 @@
+.control {
+    width: 1110px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 100px 100px;
+    gap: 10px;
+
+
+    .input,  .gender{
+        width: 300px;
+        height: 30px;
+        font-size: 16px;
+        border: 2px solid rgb(170, 42, 42);
+        border-radius: 0;
+
+        &:focus {
+            outline: none;
+            border-color: #275EFE;
+            border-radius: 0;
+        }
+    }
+
+
+    button{
+        height: 35px;
+        color: white;
+        cursor: pointer;
+    }
+    .btnSmb{
+        background: rgb(103, 103, 236);
+    }
+
+    .btmClr{
+        background: rgb(235, 42, 42);
+    }
+}
+.view {
+    width: 1110px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50px 20px;
+    gap: 5px;
+    
+
+    .name{
+        display: grid;
+        grid-template-columns: 50px 20px;
+        gap: 10px;
+    
+
+        .tabl {
+            font-size: 20px;
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+}

@@ -1,0 +1,50 @@
+.control {
+  width: 1110px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 300px 100px 100px;
+  gap: 10px;
+}
+.control .input, .control .gender {
+  width: 300px;
+  height: 30px;
+  font-size: 16px;
+  border: 2px solid rgb(170, 42, 42);
+  border-radius: 0;
+}
+.control .input:focus, .control .gender:focus {
+  outline: none;
+  border-color: #275EFE;
+  border-radius: 0;
+}
+.control button {
+  height: 35px;
+  color: white;
+  cursor: pointer;
+}
+.control .btnSmb {
+  background: rgb(103, 103, 236);
+}
+.control .btmClr {
+  background: rgb(235, 42, 42);
+}
+
+.view {
+  width: 1110px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50px 20px;
+  gap: 5px;
+}
+.view .name {
+  display: grid;
+  grid-template-columns: 50px 20px;
+  gap: 10px;
+}
+.view .name .tabl {
+  font-size: 20px;
+}
+.view .name img {
+  width: 20px;
+  height: 20px;
+}/*# sourceMappingURL=main.css.map */
